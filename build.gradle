@@ -1,9 +1,11 @@
 plugins {
     id 'groovy'
+    id 'application'
 }
 
 group 'net.ligun'
 version '1.0-SNAPSHOT'
+mainClassName = 'net.ligun.gutenberg.main.Main'
 
 repositories {
     mavenCentral()
